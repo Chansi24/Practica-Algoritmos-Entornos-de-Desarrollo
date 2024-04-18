@@ -58,13 +58,6 @@ public abstract class Algoritmos {
 	 */
 	public static boolean esPrimo(int prim) {
 		boolean primo =false;
-		if (prim==1) {
-			primo=true;
-		}
-		if (prim==2) {
-			primo=true;
-		}
-		else {
 		for	(int i=2; i<prim; i++) {
 			if(prim % i == 0) {
 				primo=false;
@@ -73,7 +66,6 @@ public abstract class Algoritmos {
 			else {
 				primo=true;
 			}
-		}
 		}
 		return primo;
 	}

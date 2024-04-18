@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="test1" project="PracticaAlgoritmo" tests="6" started="6" failures="0" errors="0" ignored="0">
+  <testsuite name="test.test1" time="0.024" displayname="test1" uniqueid="[engine:junit-jupiter]/[class:test.test1]">
+    <testcase name="fibonacci2" classname="test.test1" time="0.016" displayname="fibonacci2()" uniqueid="[engine:junit-jupiter]/[class:test.test1]/[method:fibonacci2()]"/>
+    <testcase name="fibonacci3" classname="test.test1" time="0.001" displayname="fibonacci3()" uniqueid="[engine:junit-jupiter]/[class:test.test1]/[method:fibonacci3()]"/>
+    <testcase name="factorial" classname="test.test1" time="0.0" displayname="factorial()" uniqueid="[engine:junit-jupiter]/[class:test.test1]/[method:factorial()]"/>
+    <testcase name="fibonacci" classname="test.test1" time="0.001" displayname="fibonacci()" uniqueid="[engine:junit-jupiter]/[class:test.test1]/[method:fibonacci()]"/>
+    <testcase name="factorial2" classname="test.test1" time="0.0" displayname="factorial2()" uniqueid="[engine:junit-jupiter]/[class:test.test1]/[method:factorial2()]"/>
+    <testcase name="factorial3" classname="test.test1" time="0.001" displayname="factorial3()" uniqueid="[engine:junit-jupiter]/[class:test.test1]/[method:factorial3()]"/>
+  </testsuite>
+</testrun>

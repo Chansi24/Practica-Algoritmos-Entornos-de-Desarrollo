@@ -1,0 +1,35 @@
+package test;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+import util.Algoritmos;
+
+class test1 {
+    int n1=3;
+    int n2=6;
+    int n3=11;
+    		
+	@Test
+	void fibonacci() { //3
+		int fibonacciEsperada=1;
+		int fibonacciObtenida=Algoritmos.fibonacci(3);
+		assertEquals(fibonacciEsperada, fibonacciObtenida);
+	}
+	
+	@Test
+	void fibonacci2() { //6
+		int fibonacciEsperada=5;
+		int fibonacciObtenida=Algoritmos.fibonacci(6);
+		assertEquals(fibonacciEsperada, fibonacciObtenida);
+	}
+	@Test
+	void fibonacci3() { //11
+		int fibonacciEsperada=55;
+		int fibonacciObtenida=Algoritmos.fibonacci(11);
+		assertEquals(fibonacciEsperada, fibonacciObtenida);
+	}
+	
+
+}

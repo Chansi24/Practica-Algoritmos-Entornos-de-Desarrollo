@@ -2,12 +2,9 @@ package util;
 
 public abstract class Algoritmos {
 	
-	/**
-	 * Creamos el metodo estatico fibonacci que devuelve el numero fibonacci de un entero dado.
-	 * @param MAX
-	 * @return un entero que es el numero fibonacci del numero dado
+	/*
+	 * Creamos el metodo estatico fibonacci que devuelve el numero fibonacci de un entero dado. 
 	 */
-	 
 	public static int fibonacci(int MAX) {
 
 		int firstNumber = 0;
@@ -34,14 +31,10 @@ public abstract class Algoritmos {
 		}
 		return fibonacci;
 	}
-	/**
+	/*
 	 * Metodo factorial que devuelve el factorial de un entero dado, este consiste en multiplicar todos los 
 	 * numero anteriores al numero dado incluido el propio numero.
-	 *
-	 * @param fac
-	 * @return el numero factorial del numero dado
 	 */
-	
 	public static int factorial (int fac) {
 		int factor=1;
 		for (int i = 1; i <= fac; i++) {
@@ -49,12 +42,10 @@ public abstract class Algoritmos {
         }
 		return factor;
 	}
-	/**
+	/*
 	 * Metodo esPrimo devuelve true en caso de que el numero introducido sea primo y false si no lo es.
 	 * Mediante un bucle comprobamos que el numero no sea divisible con resto 0 por ningun número salvo
 	 * por si mismo y por el 1.
-	 * @param prim
-	 * @return true si el numero es primo y false si no lo es
 	 */
 	public static boolean esPrimo(int prim) {
 		boolean primo =false;
